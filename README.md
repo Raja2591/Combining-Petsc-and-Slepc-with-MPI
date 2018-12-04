@@ -7,8 +7,13 @@ What is included?
 
 I have included the full code along with the makefile. There are some additional subroutines which deals with P3HT stacks doped with F4TCNQ anions.
 
+Petsc and Slepc
+---------------
+In order to understand this code, you need to know the basics of Petsc and Slepc. There are a lot of tutorials in the internet where you can learn about Petsc and Slepc. 
+
 References
 -----------
+
 
 
 
