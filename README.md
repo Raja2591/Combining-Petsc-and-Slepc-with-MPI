@@ -18,8 +18,7 @@ Petsc : https://www.mcs.anl.gov/petsc/documentation/tutorials/HandsOnExercise.ht
 
 There are a lot of good pdfs available on the internet which will explain how to use petsc and slepc for C++, python and Fortran. 
 
-References
------------
+
 
 
 
