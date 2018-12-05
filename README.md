@@ -25,6 +25,11 @@ Petsc : https://www.mcs.anl.gov/petsc/documentation/tutorials/HandsOnExercise.ht
 There are a lot of good pdfs available on the internet which will explain how to use petsc and slepc for C++, python and Fortran. 
 
 
+Sparse Matrix
+---------------
+
+Sparse matrix is very different from a dense matrix and has lot of zeroes. There are several efficient ways you can store a sparse matrix. In this program, you will discover sparse matrix. If you look into the subroutines,  I build the one particle, two particle Hamiltonian and the onetwo particle hamiltonian differently than what I have done in my other repositories. 
+
 
 
 
