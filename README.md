@@ -30,7 +30,7 @@ Sparse Matrix
 
 Sparse matrix is very different from a dense matrix and has lot of zeroes. There are several efficient ways you can store a sparse matrix. In this program, you will discover sparse matrix (please look into the subroutines : subroutine hamiltonian_1p_sparse, subroutine hamiltonian_1p2p_sparse and subroutine hamiltonian_2p_sparse). I build the one particle, two particle Hamiltonian and the onetwo particle hamiltonian differently than what I have done in my other repositories. This not only saves memory but helps running the calculations faster. 
 
-Here is a link where you can learn about sparse matrix; there are several other good ones available.
+Here is a link where you can learn about sparse matrix; there are several other very good tutorials available in the net.
 
 https://www.geeksforgeeks.org/sparse-matrix-representation/
 
