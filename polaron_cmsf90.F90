@@ -251,16 +251,16 @@ integer config,complete
     !output the kount
     print*, '***************************'
     print*, 'kount   :', kount                      !total basis set size
-    print*, 'kount 1p:', kount_1p
-    print*, 'kount 2p:', kount_2p
+    print*, 'kount 1p:', kount_1p                   ! Count the no. of one particle states
+    print*, 'kount 2p:', kount_2p                   ! Count the no. of two particle states
     print*, '***************************'
     
     !Frank Condon tables
-    call set_fctable()
+    call set_fctable()                         ! Sets the Frank Condon Tables
         
     
     !Output parameters
-    call para_out_cms()
+    call para_out_cms()                       !outputs the parameters
     
     ! Disorder values (diagonal and offdiagonal)
     
@@ -277,8 +277,8 @@ integer config,complete
   call MPI_Comm_Rank(PETSC_COMM_WORLD, rank, ierr)      ! calls the rank of the processor
   color = rank/1
   call MPI_Comm_Split(PETSC_COMM_WORLD,color,rank,new_comm,ierr)
-  call MPI_Comm_rank(new_comm,row_rank,ierr)
-  call MPI_Comm_size(new_comm,row_size,ierr)
+  call MPI_Comm_rank(new_comm,row_rank,ierr)               ! calls the rank of the new communicator
+  call MPI_Comm_size(new_comm,row_size,ierr)               ! calls the size of each row of the new communicator
   call para_range(1,conf_max,n_proc,color,ista,ien)       ! This subroutine is called at the end of the program, I have explained everything there
   !n=16
   !call PetscOptionsGetInt(PETSC_NULL_CHARACTER, '-n', n, flg, ierr)      
@@ -288,25 +288,25 @@ integer config,complete
 ! create and set up the matrix
   
  
-    if (diagonal) call disorder_elements()
-    if (dopant) call doping_disorder()
-    if (offdiagonal) call paracrystalline_SS()
+    if (diagonal) call disorder_elements()               ! Adds static diagonal disorder
+    if (dopant) call doping_disorder()                    ! Adds the coulomb potential between hole and anion
+    if (offdiagonal) call paracrystalline_SS()            ! Adds off-diagonal disorder
    
-        do config = ista, ien                                                ! ista is the Start of iterations for rank iproc; ien is the end of iterations for rank iproc
+        do config = ista, ien       ! ista is the Start of iterations for rank iproc; ien is the end of iterations for rank iproc
        
         
       call MatCreate(new_comm,A,ierr)                                ! creates the matrix
       call MatSetSizes(A,PETSC_DECIDE,PETSC_DECIDE,kount,kount,ierr)         ! Sets the sizes
       call MatSetFromOptions(A,ierr)
-      call MatSetUp(A,ierr)                                                  !Sets up the internal matrix data structures for the later use. 
+      call MatSetUp(A,ierr)                             !Sets up the internal matrix data structures for the later use. 
      
            
 !***************************************************************************************
                        !Build the hamiltonian
         
-        if ( one_state ) call hamiltonian_1p_sparse(config)
-        if ( two_state ) call hamiltonian_2p_sparse(config)
-        if ( one_state .and. two_state ) call hamiltonian_1p2p_sparse(config)
+        if ( one_state ) call hamiltonian_1p_sparse(config)            ! creates the one particle sparse hamiltonian
+        if ( two_state ) call hamiltonian_2p_sparse(config)             ! creates the two particle sparse hamiltonian
+        if ( one_state .and. two_state ) call hamiltonian_1p2p_sparse(config) ! creates the one particle two particle sparse hamiltonian
         
         
 !***************************************************************************************   
@@ -389,7 +389,7 @@ integer config,complete
     call VecGetArray( xr_g,xx_vg,xx_ig,ierr) !real
    end if
  !***************************************************************************************
-                       !Calculating the spectra
+                       !Calculating the absorption spectra
                        
        call cms_osc()
        call cms_osc_sum( sumoscx, sumoscy, config)
@@ -449,7 +449,8 @@ end do
      print*, '***************************'
      end if
     
-                   
+  ! Please look into how mpi reduce works
+  
      Call MPI_REDUCE(bin1, mbin1, 1, MPI_REAL8, MPI_SUM, 0, MPI_COMM_WORLD, ierr)
      bin1 = mbin1
      
@@ -529,6 +530,20 @@ end do
     
 end program
 
+!***************************************************************************************
+                        !main program ends
+!***************************************************************************************
+
+
+
+!***************************************************************************************
+                        !Subroutines for the program
+!***************************************************************************************
+
+!***************************************************************************************!
+!    Set the parameters
+!***************************************************************************************!
+
 subroutine set_para()
      use common_variables
     implicit none
@@ -540,7 +555,7 @@ subroutine set_para()
 
     !Set the default parameters
     print*, 'Setting the default parameters.'
-    lattice_x       = 9
+    lattice_x       = 9                     
     lattice_y       = 1 
     vibmax          = 4
     hw              = 1400.d0
