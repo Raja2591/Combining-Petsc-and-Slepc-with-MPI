@@ -2032,8 +2032,7 @@ subroutine set_fctable()
 end subroutine
 
 !********************************************************************
-! franc-condon calculations     !this subroutine is from haj's program 'haj_polymer.f95'
-!                                                !i have made no changes
+! franc-condon calculations     !
 !********************************************************************
 subroutine fcfac(n,m,s,fc)
         implicit none
@@ -2067,8 +2066,6 @@ end subroutine
 !       calculating factorial
 !       * i think, mathimatically numbers should be integers, but
 !         here, i use real numbers for convenience.
-! !this subroutine is from haj's program 'haj_polymer.f95'
-! !i have made no changes
 !********************************************************************
 real*8 function fact( n )
         implicit none
