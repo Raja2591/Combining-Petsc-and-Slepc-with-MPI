@@ -5,7 +5,18 @@ This repository contains a full optimized code that calculates Charge Modulation
       
                                                           Author: Raja Ghosh
 --------------------------------------------------------------------------------------------------------------------------------------
+Citations
+----------------
 
+If you use the results from this program in a publication, please cite the following papers. This program is distributed 
+under the MIT liscense.
+
+1. Ghosh, R.; Pochas, C. M.; Spano, F. C. Polaron Delocalization in Conjugated Polymer Films. J. Phys. Chem. C 2016, 120, 11394−11406.
+
+2. Ghosh, R.; Chew, A.R.; Onorato, J.; Pakhnyuk, V.; Luscombe, C. K.; Salleo, A.; Spano, F.C.,Spectral Signatures and Spatial Coherence of Bound and Unbound Polarons in P3HT Films: Theory vs Experiment", J. Phys. Chem. C 2018, 122 (18048).
+
+3. Pochas, C. M.; Spano, F. C. New Insights on the Nature of Two-Dimensional Polarons in Semiconducting Polymers: Infrared
+Absorption in Poly(3-Hexylthiophene). J. Chem. Phys. 2014, 140, 244902
 
 
 # Combining-Petsc-and-Slepc-with-MPI
@@ -50,18 +61,6 @@ Running the code
 
 I have provided my makefile, but it is recommended that you make your own. You will need lapack, slepc, petsc, mpi installed for the succesful compilation of the code. Once the code runs, it will generate three dat files which will contain information about the polaron absorption spectrum, polaron coherence and polaron photoluminiscence spectrum.
 
-Citations
-----------------
-
-If you use the results from this program in a publication, please cite the following papers. This program is distributed 
-under the MIT liscense.
-
-1. Ghosh, R.; Pochas, C. M.; Spano, F. C. Polaron Delocalization in Conjugated Polymer Films. J. Phys. Chem. C 2016, 120, 11394−11406.
-
-2. Ghosh, R.; Chew, A.R.; Onorato, J.; Pakhnyuk, V.; Luscombe, C. K.; Salleo, A.; Spano, F.C.,Spectral Signatures and Spatial Coherence of Bound and Unbound Polarons in P3HT Films: Theory vs Experiment", J. Phys. Chem. C 2018, 122 (18048).
-
-3. Pochas, C. M.; Spano, F. C. New Insights on the Nature of Two-Dimensional Polarons in Semiconducting Polymers: Infrared
-Absorption in Poly(3-Hexylthiophene). J. Chem. Phys. 2014, 140, 244902
 
 
 
