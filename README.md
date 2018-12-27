@@ -40,6 +40,14 @@ Running the code
 
 I have provided my makefile, but it is recommended that you make your own. You will need lapack, slepc, petsc, mpi installed for the succesful compilation of the code. Once the code runs, it will generate three dat files which will contain information about the polaron absorption spectrum, polaron coherence and polaron photoluminiscence spectrum.
 
+Citations
+----------------
+
+If you use the results from this program in a publication, please cite the following papers. This program is distributed 
+under the MIT liscense.
+
+
+
 Thanks!
 
 
