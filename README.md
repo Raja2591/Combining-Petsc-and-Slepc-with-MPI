@@ -1,3 +1,13 @@
+
+
+_____________________________________________________________________________________________________________________________________
+This repository contains a full optimized code that calculates Charge Modulation/IR spectrum, polaron coherence and photoluminiscence for condcuting polymers. The program has been uniquely developed in the Spano group. You will learn how to code using Petsc and Slepc along with MPI. The code can run on multiple nodes in a single processor or multiple processors.
+      
+                                                          Author: Raja Ghosh
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 # Combining-Petsc-and-Slepc-with-MPI
 
 This is an optimized version of the code that has been provided in the respository "Polaron Coherence in 2D aggregates." I have used Petsc and Slepc along with MPI. The new optimized code runs almost 20 times faster and requires a lot less memory.
