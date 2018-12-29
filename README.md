@@ -22,7 +22,7 @@ Absorption in Poly(3-Hexylthiophene). J. Chem. Phys. 2014, 140, 244902
 
 # Combining-Petsc-and-Slepc-with-MPI
 
-This is an optimized version of the code that has been provided in the respository "Polaron Coherence in 2D aggregates." I have used Petsc and Slepc along with MPI. The new optimized code runs almost 20 times faster and requires a lot less memory.
+This is an optimized version of the code that has been provided in the respository "Polaron Coherence in 2D aggregates." I have used Petsc and Slepc along with MPI. The new optimized code runs almost 20 times faster and requires a lot less memory. Please check the file "polaron_cmsf90" for the full optimized code.
 
 What is included?
 -----------------
