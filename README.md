@@ -4,7 +4,7 @@ ________________________________________________________________________________
 This repository contains a fully optimized code that calculates Charge Modulation/IR spectrum, polaron coherence and photoluminiscence for both homopolymers and Donor Acceptor polymers. The program has been uniquely developed in the Spano group. You will learn how to code using sparse matrix techniques (Petsc and Slepc) along with MPI. The code successfuly runs on multiple nodes in a single processor or on multiple nodes on multiple processors. 
       
                                                           Author: Raja Ghosh 
-                                                          contact: raja.ghosh@temple.edu
+                                                          contact: raja.ghosh@temple.edu, raghosh@ucsd.edu
 --------------------------------------------------------------------------------------------------------------------------------------
 Citations
 ----------------
