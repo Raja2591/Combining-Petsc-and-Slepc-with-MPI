@@ -12,17 +12,17 @@ Citations
 If you use the results from this program in a publication, please cite the following papers. This program is distributed 
 under the MIT liscense.
 
-1. R. Ghosh, C.M. Pochas and F.C.Spano, “Polaron Delocalization in Conjugated Polymer Films”,J. Phys. Chem.C2016, 120 (11394-11406).
+1. R. Ghosh, C.M. Pochas and F.C.Spano, “Polaron Delocalization in Conjugated Polymer Films”,J. Phys. Chem.C, 2016, 120 (11394-11406).
 
-2. Ghosh, R.,Luscombe, C. K., Salleo, A., Spano, F. C., “Anisotropic Polaron Delocalization in conjugated Ho-mopolymers and Donor Acceptor Copolymers”,Chem. Mater.2019, 31 (7033).
+2. Ghosh, R.,Luscombe, C. K., Salleo, A., Spano, F. C., “Anisotropic Polaron Delocalization in conjugated Ho-mopolymers and Donor Acceptor Copolymers”,Chem. Mater., 2019, 31 (7033).
 
-3. Ghosh, R., Chew, A.R., Onorato, J., Pakhnyuk, V., Luscombe, C. K., Salleo, A., Spano, F. C., “Spectral Signaturesand Spatial Coherence of Bound and Unbound Polarons in P3HT Films: Theory vs Experiment”,J. Phys. Chem.C2018, 122 (18048).
+3. Ghosh, R., Chew, A.R., Onorato, J., Pakhnyuk, V., Luscombe, C. K., Salleo, A., Spano, F. C., “Spectral Signaturesand Spatial Coherence of Bound and Unbound Polarons in P3HT Films: Theory vs Experiment”,J. Phys. Chem.C, 2018, 122 (18048).
 
-4. A.R. Chew,R. Ghosh, Z. Shang, F.C. Spano and A. Salleo, “Sequential Doping Reveals the Importance of Amor-pous Chain Rigidity of Charge Transport of Semi-Crystalline Polymers”,J. Phys. Chem. Lett.2017, 20 (4974-4980).
+4. A.R. Chew,R. Ghosh, Z. Shang, F.C. Spano and A. Salleo, “Sequential Doping Reveals the Importance of Amor-pous Chain Rigidity of Charge Transport of Semi-Crystalline Polymers”,J. Phys. Chem. Lett., 2017, 20 (4974-4980).
 
-5. Scholes, D. T., Yee, P. Y., Lindemuth, J. R., Kang, H., Onorato, J.;Ghosh, R.; Luscombe, C. K.; Spano, F. C.; Tol-bert, S. H.; Schwartz, B. J., “The Effects of Crystallinity on Charge Transport and the Structure of SequentiallyProcessed F(4)TCNQ-Doped Conjugated Polymer Films.”,Adv. Funct. Mater.2017, 27 (17025654).
+5. Scholes, D. T., Yee, P. Y., Lindemuth, J. R., Kang, H., Onorato, J.;Ghosh, R.; Luscombe, C. K.; Spano, F. C.; Tol-bert, S. H.; Schwartz, B. J., “The Effects of Crystallinity on Charge Transport and the Structure of SequentiallyProcessed F(4)TCNQ-Doped Conjugated Polymer Films.”,Adv. Funct. Mater., 2017, 27 (17025654).
 
-6. Chew, A.R.,Ghosh, R., Pakhnyuk, V., Onorato, J.; Davidson, E.C., Segalman, R.A., Luscombe, C. K., Spano, F. C.,Salleo, A., “Unraveling the Effect of Conformational and Electronic Disorder in the Charge Transport Processes of Semiconducting Polymers”, Adv. Funct. Mater.2018,(1804142)
+6. Chew, A.R.,Ghosh, R., Pakhnyuk, V., Onorato, J.; Davidson, E.C., Segalman, R.A., Luscombe, C. K., Spano, F. C.,Salleo, A., “Unraveling the Effect of Conformational and Electronic Disorder in the Charge Transport Processes of Semiconducting Polymers”, Adv. Funct. Mater., 2018,(1804142)
 
 7. Ghosh, R.; Spano, F. C., “Excitons and Polarons in Organic Materials”,Acc. Chem. Res.,2020, (Proposal Accepted, To be submitted soon)
 
