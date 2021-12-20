@@ -83,7 +83,7 @@ implicit none
     real *8, allocatable :: D_anion4(:,:,:)
     real *8, allocatable :: D_cation(:,:,:)    
 
-    !the hamiltonian
+    !parameterize the hamiltonian
     real*8, allocatable :: h(:,:)
     real*8, allocatable :: vl(:)
     real*8, allocatable :: eval(:)
