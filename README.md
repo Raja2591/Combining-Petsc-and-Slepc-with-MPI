@@ -12,6 +12,7 @@ Citations
 If you use the results from this program in a publication, please cite the following papers. This program is distributed 
 under the MIT liscense.
 
+
 1. R. Ghosh, C.M. Pochas and F.C.Spano, “Polaron Delocalization in Conjugated Polymer Films”,J. Phys. Chem.C, 2016, 120 (11394-11406).
 
 2. Ghosh, R.,Luscombe, C. K., Salleo, A., Spano, F. C., “Anisotropic Polaron Delocalization in conjugated Ho-mopolymers and Donor Acceptor Copolymers”,Chem. Mater., 2019, 31 (7033).
@@ -24,7 +25,12 @@ under the MIT liscense.
 
 6. Chew, A.R.,Ghosh, R., Pakhnyuk, V., Onorato, J.; Davidson, E.C., Segalman, R.A., Luscombe, C. K., Spano, F. C.,Salleo, A., “Unraveling the Effect of Conformational and Electronic Disorder in the Charge Transport Processes of Semiconducting Polymers”, Adv. Funct. Mater., 2018,(1804142)
 
-7. Ghosh, R.; Spano, F. C., “Excitons and Polarons in Organic Materials”,Acc. Chem. Res.,2020, (Proposal Accepted, To be submitted soon)
+7. Ghosh, R.; Spano, F. C. Excitons and Polarons in Organic Materials. Acc. Chem. Res.2020, 53, 2201-2211.
+
+8. Ghosh, R.; Paesani, F. Unraveling the Efect of Defects, Domain Size, and Chemical Doping on Photophysics and Charge Transport in Covalent Organic Frameworks. Chem.
+Sci. 2021, 12, 8373-8384.
+
+9.  Ghosh, R.; Paesani, F. Topology-Mediated Enhanced Polaron Coherence in Covalent Organic Frameworks. J. Phys. Chem. Lett. 2021, 12, 39, 9442–9448.
 
 # Combining-Petsc-and-Slepc-with-MPI
 
